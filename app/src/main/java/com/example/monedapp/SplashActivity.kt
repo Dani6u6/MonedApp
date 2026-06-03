@@ -26,6 +26,7 @@ class SplashActivity : AppCompatActivity() {
         binding.tvAppName.startAnimation(splashAnim)
         binding.tvAuthor.startAnimation(splashAnim)
         binding.tvGroup.startAnimation(splashAnim)
+        binding.progressBar.startAnimation(splashAnim)
 
         // Navegar a MainActivity después de 3.5 segundos para dar tiempo a la animación
         Handler(Looper.getMainLooper()).postDelayed({

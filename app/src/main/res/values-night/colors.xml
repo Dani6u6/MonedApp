@@ -9,8 +9,8 @@
     <color name="secondary_light_gold">#FFFFA8</color>
     <color name="secondary_dark_gold">#CAB200</color>
 
-    <color name="background_dark">#121212</color>
-    <color name="surface_dark">#1E1E1E</color>
+    <color name="app_background">#121212</color>
+    <color name="app_surface">#1E1E1E</color>
 
     <color name="text_primary">#E8F5E9</color>
 </resources>
