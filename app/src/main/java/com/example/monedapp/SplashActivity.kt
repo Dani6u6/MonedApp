@@ -19,15 +19,19 @@ class SplashActivity : AppCompatActivity() {
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Animación para el logo
-        val animation = AnimationUtils.loadAnimation(this, android.R.anim.fade_in)
-        binding.ivLogo.startAnimation(animation)
-        binding.tvAppName.startAnimation(animation)
+        // Cargar y aplicar la animación personalizada
+        val splashAnim = AnimationUtils.loadAnimation(this, R.anim.splash_animation)
+        
+        binding.ivLogo.startAnimation(splashAnim)
+        binding.tvAppName.startAnimation(splashAnim)
+        binding.tvAuthor.startAnimation(splashAnim)
+        binding.tvGroup.startAnimation(splashAnim)
 
-        // Navegar a MainActivity después de 3 segundos
+        // Navegar a MainActivity después de 3.5 segundos para dar tiempo a la animación
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             finish()
-        }, 3000)
+        }, 3500)
     }
 }
