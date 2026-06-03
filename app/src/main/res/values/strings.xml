@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MonedApp</string>
+    <string name="hint_amount">Cantidad a convertir</string>
+    <string name="label_from">De</string>
+    <string name="label_to">A</string>
+    <string name="content_desc_swap">Intercambiar monedas</string>
+    <string name="author_name">Autor: Daniel Hernández</string>
+    <string name="group_name">LISI 4-2</string>
 </resources>
