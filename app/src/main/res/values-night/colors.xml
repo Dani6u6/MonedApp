@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Money Theme Colors (Dark Mode) -->
+    <color name="primary_green">#81C784</color>
+    <color name="primary_light_green">#B2FAB4</color>
+    <color name="primary_dark_green">#519657</color>
+
+    <color name="secondary_gold">#FFF176</color>
+    <color name="secondary_light_gold">#FFFFA8</color>
+    <color name="secondary_dark_gold">#CAB200</color>
+
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <color name="text_primary">#E8F5E9</color>
+</resources>

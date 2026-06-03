@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Money Theme Colors (Material You inspired) -->
+    <color name="primary_green">#2E7D32</color> <!-- Dark Green -->
+    <color name="primary_light_green">#60AD5E</color>
+    <color name="primary_dark_green">#005005</color>
+
+    <color name="secondary_gold">#FBC02D</color> <!-- Gold -->
+    <color name="secondary_light_gold">#FFF263</color>
+    <color name="secondary_dark_gold">#C49000</color>
+
+    <color name="background_light">#F1F8E9</color>
+    <color name="surface_light">#FFFFFF</color>
+
+    <color name="text_primary">#1B5E20</color>
 </resources>
