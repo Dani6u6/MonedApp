@@ -3,6 +3,11 @@
     android:id="@android:id/text1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="12dp"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:minHeight="48dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="36dp"
+    android:singleLine="true"
     android:textColor="@color/text_primary"
     android:textSize="18sp" />

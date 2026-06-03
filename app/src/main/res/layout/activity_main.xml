@@ -82,8 +82,8 @@
                     <Spinner
                         android:id="@+id/spinnerFrom"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:background="@android:drawable/btn_dropdown" />
+                        android:layout_height="56dp"
+                        android:spinnerMode="dropdown" />
 
                     <ImageButton
                         android:id="@+id/btnSwap"
@@ -107,8 +107,8 @@
                     <Spinner
                         android:id="@+id/spinnerTo"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:background="@android:drawable/btn_dropdown" />
+                        android:layout_height="56dp"
+                        android:spinnerMode="dropdown" />
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
