@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupSpinners() {
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, currencies)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        val adapter = ArrayAdapter(this, R.layout.item_spinner, currencies)
+        adapter.setDropDownViewResource(R.layout.item_spinner_dropdown)
         
         binding.spinnerFrom.adapter = adapter
         binding.spinnerTo.adapter = adapter
